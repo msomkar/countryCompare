@@ -1,0 +1,24 @@
+{
+  "name": "country-compare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass -w css/src/countryCompare.scss:css/src/countryCompare.css",
+    "serve":"lite-server",
+    "start":"npm run sass && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msomkar/countryCompare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msomkar/countryCompare/issues"
+  },
+  "homepage": "https://github.com/msomkar/countryCompare#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
